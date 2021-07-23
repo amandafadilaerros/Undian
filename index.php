@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="assets/css/style.css">
     <title>Undian</title>
 </head>
 
@@ -55,6 +55,20 @@
             </header>
         </div>
     </nav>
+
+    <footer class="footer">
+        <div class="footer bg-dark text-light">
+            <p style="text-align: center;">Copy Right Rama & Dila © 2021</p>
+        </div>
+    </footer>
+    <!-- <footer id="kaki">
+        <div class="container">
+            <h5 class="text-center">Copy Right Rama & Dila © 2020</h5>
+        </div>
+        <div id="scroll-Top">
+            <i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+        </div>
+    </footer> -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
