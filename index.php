@@ -8,59 +8,74 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1.0">
     <title>Undian</title>
 </head>
 
 <body>
-    <nav class="bg-dark">
-        <div class="container">
-            <header class="d-flex justify-content-center py-3">
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link active text-light">Undian</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link active text-light">Pemenang</a></li>
-                    <!-- Example single danger button -->
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Peserta
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Upload Form</a></li>
-                            <li><a class="dropdown-item" href="#">Upload CSV</a></li>
-                        </ul>
-                    </div>
-                    <!-- Example single danger button -->
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Kupon
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Generate</a></li>
-                            <li><a class="dropdown-item" href="#">Cetak Kupon</a></li>
-                        </ul>
-                    </div>
-                    <!-- Example single danger button -->
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pengaturan
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Akun Baru</a></li>
-                            <li><a class="dropdown-item" href="#">Reset Undian</a></li>
-                            <li><a class="dropdown-item" href="#">Level Akun</a></li>
-                            <li><a class="dropdown-item" href="#">Ganti Akun</a></li>
-                        </ul>
-                    </div>
-                </ul>
-            </header>
-        </div>
-    </nav>
+    <div id="container">
+        <Div class="content bg-dark">
+            <nav>
+                <header class="d-flex justify-content-center py-2">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Undian</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Pemenang</a></li>
+                        <!-- Example single danger button -->
+                        <li class="nav-item">
+                            <ul class="navbar-nav">
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Example single danger button -->
+                        <li class="nav-item">
+                            <ul class="navbar-nav">
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Example single danger button -->
+                        <li class="nav-item">
+                            <ul class="navbar-nav">
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+            </nav>
+        </Div>
 
-    <footer class="footer">
-        <div class="footer bg-dark text-light">
-            <p style="text-align: center;">Copy Right Rama & Dila © 2021</p>
-        </div>
-    </footer>
+        <footer class="footer">
+            <div class="content">
+                <h5 style="text-align: center;">Copy Right Rama & Dila © 2020</h5>
+            </div>
+        </footer>
+    </div>
     <!-- <footer id="kaki">
         <div class="container">
             <h5 class="text-center">Copy Right Rama & Dila © 2020</h5>
