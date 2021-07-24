@@ -76,15 +76,7 @@
             </div>
         </footer>
     </div>
-    <!-- <footer id="kaki">
-        <div class="container">
-            <h5 class="text-center">Copy Right Rama & Dila © 2020</h5>
-        </div>
-        <div id="scroll-Top">
-            <i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-        </div>
-    </footer> -->
-
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
